@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: scroll;
+    position: relative;
+    background: url(../../assets/IMG-20241219-WA0003.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+.main-cont{
+    background: rgba(255, 255, 255 , .40);
+    /* backdrop-filter: blur(5px); */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6vmax;
+}
+
+nav{
+    background: #0b53be;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 9vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.head-pic{
+    width:17vw;
+    height: 20vh;
+    margin:30px;
+}
+.dl{
+    width: 35vw;
+    height: 20vh;
+    margin-top: 45px;
+
+}
+.icos{
+    margin: 1.5em;
+    fill: #fff;
+}
+.showside{
+    background: #0b53be;
+    position:absolute;
+    right: 0px;
+    top: 9vh;
+    width: 45vmin;
+    height: 91vh;
+    z-index: 2;
+    display: none;
+}
+.list{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    all: unset;
+    margin: .2rem;
+    padding:1em;   
+    color: #fff;
+}
+a:hover{
+    background: #e6d6d6;
+    color: black;
+    svg{
+        fill: black;
+    }
+}
+.listItem:hover{
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main-info-tab > *{
+    display: flex;
+    margin: 2em;
+    color: black;
+}
+#close{
+    padding: 5px;
+    cursor: pointer;
+}
+svg{
+    fill: whitesmoke;
+    cursor: pointer;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+}
+.listItem *{
+    margin-right: 10px;
+}
+
+
+/* footer */
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background: #040279;
+    color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    row-gap: 1.5em;
+}
+.depli{
+    cursor: pointer;
+    list-style: none;
+    margin: 1em;
+}
+li{
+    margin: .3em;
+}
+.about,.contact, .dep{
+    margin: 1em;
+}
+.mail{
+    all: unset;
+    cursor: pointer;
+}
+.mail:hover{
+    background: none;
+}
+.ico{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}

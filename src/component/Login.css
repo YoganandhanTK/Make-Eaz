@@ -1,0 +1,87 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+  }
+  
+  .login-form {
+    background: #9250b1;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(24, 7, 7, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #0f0a05;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0d1744;
+  }
+  
+  .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    outline: none;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  .pass :nth-child(1){
+    border: none;
+    width: 90%;
+  }
+  .pass{
+    background:white;
+    display: flex;
+    border-radius: 4px;
+  }
+  .pass :nth-child(2){
+    margin-top: 5px;
+    fill: #0f0a05;
+  }
+
+
+
+

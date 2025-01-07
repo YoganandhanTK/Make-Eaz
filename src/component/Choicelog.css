@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contant{
+    width: 90%;
+    /* height: 80vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1em;
+}
+.contant *{
+    background: #15ddcc;
+    padding: 1em;
+    margin: 20px;
+}
+.box{
+    border-radius: 2em;
+}
+button{
+    /* all: unset; */
+    border-radius: 1em;
+}
+
+
+
